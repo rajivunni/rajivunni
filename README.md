@@ -11,6 +11,9 @@ My focus is Python, Amazon Bedrock, Lambda, API Gateway, S3, DynamoDB, Athena, a
 | Project | What to look at | Stack |
 | --- | --- | --- |
 | [Document retrieval API](https://github.com/rajivunni/rag-document-retrieval) | Google Drive ingestion, text extraction, chunking, embeddings and source retrieval, with mocked unit tests | Python, FastAPI, OpenAI embeddings, Supabase, pgvector |
+| [AWS subscription lifecycle reference](https://github.com/rajivunni/aws-serverless-subscription-provisioning) | Anonymized subscription lifecycle reference with webhook validation and workflow orchestration | Go, Lambda, DynamoDB, Step Functions, API Gateway |
+| [AWS operational health checks](https://github.com/rajivunni/aws-serverless-health-check) | Read-only AWS operational checks with mocked offline tests | Python, AWS CLI, CloudWatch, DynamoDB, SNS |
+| [AWS service cost report](https://github.com/rajivunni/aws-bedrock-cost-report) | Selected-service Cost Explorer reporting to Excel and JSON, with a synthetic offline demo | Python, AWS Cost Explorer, openpyxl |
 | [Amazon Connect healthcare POC](https://github.com/rajivunni/connect-healthcare-poc) | Contact-center infrastructure and intent handling using fictional healthcare records | Amazon Connect, Lex V2, Lambda, CloudFormation |
 | [FreshBite analytics POC](https://github.com/rajivunni/freshbite-quicksight-poc) | Synthetic franchise data, warehouse SQL and a QuickSight permissions-table design | Redshift Serverless, QuickSight, S3, CloudFormation, Python |
 
@@ -20,8 +23,8 @@ My focus is Python, Amazon Bedrock, Lambda, API Gateway, S3, DynamoDB, Athena, a
 
 ### How I work
 
-I start with the data path and the actual failure or user question. I prefer small, testable changes, clear source evidence and written setup notes. My client work includes AWS integration recovery, Bedrock operations agents and Terraform pre-deployment reviews. Client repositories and production data remain private.
+I start with the data path and the actual failure or user question. I prefer small, testable changes, clear source evidence and written setup notes. My client work includes AWS integration recovery, Bedrock operations agents and Terraform pre-deployment reviews. Original client repositories and production data remain private; anonymized portfolio adaptations are labelled separately.
 
-These public repositories are learning and portfolio projects. Each README describes what the code implements, what is mocked and what still needs work before a production deployment.
+These public repositories are demos and anonymized portfolio adaptations. Each README describes what the code implements, what is mocked and what still needs work before a production deployment. The subscription lifecycle repository is reference code, not a production-ready deployment package.
 
 [Website](https://flowboticsai.com/) · [GitHub](https://github.com/rajivunni)
