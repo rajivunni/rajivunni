@@ -1,16 +1,27 @@
-## Hi there 👋
+# Rajiv Unnikrishnan
 
-<!--
-**rajivunni/rajivunni** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## AWS engineering, Bedrock agents and retrieval-augmented generation
 
-Here are some ideas to get you started:
+I build AI assistants around business data and work on the AWS infrastructure and API integrations behind them. Based in Amsterdam, Netherlands.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+My focus is Python, Amazon Bedrock, Lambda, API Gateway, S3, DynamoDB, Athena, and document retrieval with PostgreSQL/pgvector. I also work with Amazon Connect, Lex, QuickSight and Redshift.
+
+### Selected projects
+
+| Project | What to look at | Stack |
+| --- | --- | --- |
+| [Document retrieval API](https://github.com/rajivunni/rag-document-retrieval) | Google Drive ingestion, text extraction, chunking, embeddings and source retrieval, with mocked unit tests | Python, FastAPI, OpenAI embeddings, Supabase, pgvector |
+| [Amazon Connect healthcare POC](https://github.com/rajivunni/connect-healthcare-poc) | Contact-center infrastructure and intent handling using fictional healthcare records | Amazon Connect, Lex V2, Lambda, CloudFormation |
+| [FreshBite analytics POC](https://github.com/rajivunni/freshbite-quicksight-poc) | Synthetic franchise data, warehouse SQL and a QuickSight permissions-table design | Redshift Serverless, QuickSight, S3, CloudFormation, Python |
+
+### AWS + RAG demonstration
+
+[MedCare assistant](https://d3koirx16s0e80.cloudfront.net/) is a portfolio POC using synthetic healthcare data. It combines document Q&A with source citations and structured reporting through a React interface, API Gateway, Python Lambda, Amazon Bedrock and Athena. It is a demonstration, not a production healthcare system or a compliance certification.
+
+### How I work
+
+I start with the data path and the actual failure or user question. I prefer small, testable changes, clear source evidence and written setup notes. My client work includes AWS integration recovery, Bedrock operations agents and Terraform pre-deployment reviews. Client repositories and production data remain private.
+
+These public repositories are learning and portfolio projects. Each README describes what the code implements, what is mocked and what still needs work before a production deployment.
+
+[Website](https://flowboticsai.com/) · [GitHub](https://github.com/rajivunni)
